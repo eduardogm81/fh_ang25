@@ -1,12 +1,12 @@
-function addNumbers(a: number, b: number) {
+/*function addNumbers(a: number, b: number) {
     return a + b;
-}
+}*/
 
-const addNumbersArrow = (a: number, b: number): string => `${a + b}`;
+// const addNumbersArrow = (a: number, b: number): string => `${a + b}`;
 
-function multiply(firstNumber: number, secondNumber?: number, base: number = 2): number {
+/*function multiply(firstNumber: number, secondNumber?: number, base: number = 2): number {
     return firstNumber * base;
-}
+}*/
 
 
 // const result: number = addNumbers(1, 2);
