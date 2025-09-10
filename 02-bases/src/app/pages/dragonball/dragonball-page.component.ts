@@ -9,9 +9,6 @@ interface Character {
 
 @Component( {
     selector: 'app-dragonball',
-    imports: [
-        NgClass
-    ],
     templateUrl: './dragonball-page.component.html'
 } )
 export class DragonballPageComponent {
@@ -20,7 +17,7 @@ export class DragonballPageComponent {
     power = signal(0);
 
     characters = signal<Character[]>([
-        { id: 1, name: 'Goku', power: 9001 },
+        { id: 1, name: 'Goku', power: 9002 },
         /*{ id: 2, name: 'Vegeta', power: 9000 },
         { id: 3, name: 'Piccolo', power: 3000 },
         { id: 4, name: 'Yamcha', power: 500 },*/
