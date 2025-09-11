@@ -8,12 +8,10 @@ export const routes: Routes = [
             {
                 path: 'trending',
                 loadComponent: () => import('./gifs/pages/trending-page/trending-page.component')
-                // .then( c => c.TrendingPageComponent )
             },
             {
                 path: 'search',
                 loadComponent: () => import('./gifs/pages/search-page/search-page.component')
-                // .then( c => c.SearchPageComponent )
             },
             {
                 path: '**',
